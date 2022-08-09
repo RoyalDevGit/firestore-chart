@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import Questions from './components/Questions';
+import PieChart from './components/BarChart';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           Learn React
         </a>
       </header>
+      <Questions />
+      <canvas id='chart'></canvas>
     </div>
   );
 }
